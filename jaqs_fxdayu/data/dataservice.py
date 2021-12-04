@@ -1,4 +1,8 @@
 # noinspection PyUnresolvedReferences
+
+'''
+废弃
+'''
 from jaqs.data.dataservice import *
 from jaqs.data.dataservice import RemoteDataService as OriginRemoteDataService
 import os

@@ -1,8 +1,7 @@
 # jaqs-fxdayu:股票多因子策略研究和分析框架jaqs拓展包
 
 ## 介绍
-
-大鱼金融在jaqs官方版本的基础上,重点改进和优化了股票多因子研究部分的功能,帮助使用者更方便的去设计/评估和分析因子表现,优化因子效果，进行因子组合研究．
+在jaqs官方版本的基础上,重点改进和优化了股票多因子研究部分的功能,帮助使用者更方便的去设计/评估和分析因子表现,优化因子效果，进行因子组合研究．
 
 主要包括:
 
@@ -177,9 +176,3 @@ TimingDigger-create_event_report方法新增进出场点位画图功能
 ### 2018/3/19 更新
 
 新增dataview-fields可选字段查询方式，详见文档　dataview-fields可选字段查询方式
-
-## 技术支持
-
-- [GitHub](https://github.com/xingetouzi/jaqs-fxdayu/tree/master)
-- [访问大鱼学院获得更多的案例和金融量化知识](http://www.fxdayu.com)
-- 加qq群(372592121)进行讨论
