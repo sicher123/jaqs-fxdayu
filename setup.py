@@ -22,7 +22,7 @@ def version():
         return f.read().decode('ascii').strip()
 
 
-requirements = [str(ir.req) for ir in parse_requirements("requirements.txt", session=False)]
+# requirements = [str(ir.req) for ir in parse_requirements("requirements.txt", session=False)]
 setup(
     name='jaqs_fxdayu',
     version=version(),
@@ -33,7 +33,7 @@ setup(
     package_data={'': ['*.csv', '*.txt']},
     url='https://github.com/xingetouzi/jaqs_fxdayu',
     keywords="quantiatitive trading research finance",
-    install_requires=requirements,
+    # install_requires=requirements,
     description='Open source quantitative research&trading framework, base on https://github.com/quantOS-org/JAQS',
     long_description=readme(),
     zip_safe=False,
